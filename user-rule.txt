@@ -1,0 +1,10 @@
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+
+var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
+
+var rules = [
+"google.com",
+"gmail.com",
+];
+
